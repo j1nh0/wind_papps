@@ -1,0 +1,82 @@
+Our website ad revenue has dropped by over 50%, so we can use your donation now more than ever. Thank you for helping keep PortableApps.com alive by donating today!
+
+* VERSION 26.3.1 [2023-11-11]
+
+ADDED: Additional translated strings in the What's New and Sponsors tabs in About window
+FIXED: Language switching in glibc apps (Audacity, GIMP, etc) with Arabic, French, Korean, Latvian
+UPDATED: Arabic, Chinese Simplified, Chinese Traditional, English, English GB, French, German, Hebrew, Italian, Japanese, Korean, Portuguese, Portuguese Brazilian, Russian, Spanish, Spanish International, Ukrainian locales
+
+* VERSION 26.3 [2023-11-03]
+
+UPDATED: Improved security: All downloads and online installer downloads rebuilt/rehashed with SHA256
+UPDATED: Chinese Simplified, Croatian, Japanese, Slovak locales
+FIXED: Status line blank in updater/app store when verifying online installer downloads
+REMOVED: Legacy MD5 support
+
+* VERSION 26.2.3 [2023-10-11]
+
+ADDED: Verification notification in updater/app store
+UPDATED: Arabic, Bulgarian, English, EnglishGB, French, German, Greek, Hungarian, Latvian, Polish, Portuguese, Portuguese Brazilian, Russian locales
+
+* VERSION 26.2.2.1 [2023-10-03]
+
+FIXED: Flickering and showing command line in updater/app store
+
+* VERSION 26.2.2 [2023-10-03]
+
+ADDED: Improved keyboard navigation, menus/context menus appear near controls when triggered with keyboard
+UPDATED: Holiday decoration dates
+UPDATED: Arabic, Armenian, Chinese Simplified, Greek, Latvian, Polish locales
+
+* VERSION 26.2.1 [2023-09-16]
+
+ADDED: BlueSky and Mastodon links in Help
+FIXED: Occasional removal of app files on cancelled downloads on slow internet connections
+FIXED: RTL locale display issues on legacy Windows in About window, Help menu
+FIXED: Danish locale shows as Dutch
+UPDATED: Arabic, Bulgarian, Chinese Simplified, Chinese Traditional, Danish, Dutch, French, Hungarian, Italian, Japanese, Korean, Portuguese, Russian, Spanish, Spanish International locales
+
+* VERSION 26.2 [2023-09-14]
+
+ADDED: Exit Anyway option when closing apps on exit
+FIXED: Misplaced letter and parenthesis in app right-click menu on legacy Windows with RTL locales
+FIXED: [paf.exe] tag in Manage Apps submenu on modern Windows with RTL locales
+FIXED: Updater tab is default in Options instead of General
+UPDATED: Arabic, Bulgarian, Chinese Simplified, Dutch, English, EnglishGB, French, German, Hungarian, Latvian, Polish, Portuguese BR locales
+
+* VERSION 26.1 [2023-09-06]
+
+ADDED: Non-PAF custom command line via appname.exe.pap.ini
+ADDED: NixOS detection and font matching
+UPDATED: Close apps dialog to Retry when apps running
+UPDATED: 7-Zip to latest version
+
+* VERSION 26.0 [2023-06-15]
+
+ADDED: Preservation of symlinks in base path of apps being uninstalled
+UPDATED: Greatly improved app uninstall speed
+UPDATED: Delphi IDE/compiler to latest patch
+FIXED: App store/updater final page has small fonts on some systems
+FIXED: Platform sends font change message when no fonts loaded
+FIXED: Some apps report no free space when installing to unmapped UNC paths
+FIXED: Some apps show unnecessary installer UI while being installed
+FIXED: Some apps don't refresh the PA.c Platform after installing via the App Store
+
+* VERSION 25.0 [2023-04-07]
+
+ADDED: Initial macOS support with installer and macOS helper app
+ADDED: ShareX auto closing support
+UPDATED: Delphi compiler to 11.3, improved performance and stability
+
+* VERSION 24.1 [2023-02-13]
+
+ADDED: Marathi locale
+ADDED: Partial automated OS font matching in Backup/Restore
+UPDATED: Japanese locale
+FIXED: Stray characters in Backup finish screen
+
+* VERSION 24.0 [2023-01-30]
+
+ADDED: Windows on ARM detecion and support, displayed in About
+ADDED: Pin to taskbar/Add to Start for ARM64 apps
+ADDED: Partial automated OS font matching in Updater/App Store
